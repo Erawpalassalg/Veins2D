@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Veins2D.gd" type="Script" id=1]
+
+[node name="Veins2D" type="Polygon2D"]
+position = Vector2( -49, -42 )
+polygon = PoolVector2Array( 54, 132, 145, 66, 327, 56, 392, 147, 332, 290, 61, 324, 55, 140 )
+script = ExtResource( 1 )
+spacing = 12
+minimum_distance = 4.0
+movement = 3.0
+petiole = Vector2( 300, 150 )
